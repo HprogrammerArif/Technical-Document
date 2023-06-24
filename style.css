@@ -1,0 +1,103 @@
+body {
+   min-width: 290px; 
+   background-color: #ffffff;
+   color: #4d4e53;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.6;
+}
+#sidebar {
+    min-width: 290px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    margin-top: 0%;
+    margin-left: 0%;
+    position: fixed;
+    padding: 5px;
+
+}
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+    margin: 10px;
+}
+#sidebar h2 {
+    text-align: left;
+    margin: 0px;
+}
+#sidebar ul {
+    padding: 0px;
+    height: 88%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+#sidebar li {
+    list-style: none;
+    position: relative;
+    border-top: 1px solid;
+    color:#4d4e53;
+    width: 100%;
+}
+
+#sidebar .nav-bar {
+    display:block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #4d4e53;
+    cursor: pointer;
+}
+
+#documention {
+    margin-left: 360px;
+    padding: 25px;
+    margin-bottom: 210px;
+}
+#introhead {
+    text-align: left;
+    font-size: 35px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+#headingdoc {
+    color: black;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+pre {
+    display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+#html_editors h2 {
+    text-align: left;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+  #documentation {
+    margin-left: -10px;
+  }
+}
